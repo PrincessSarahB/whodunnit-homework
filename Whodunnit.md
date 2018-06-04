@@ -7,11 +7,20 @@ var printName = function() {
 
 printName();
 
-<!-- This function will print out "My name is Bob" because Bob is assigned to the variable "name" -->
+** This function will print out "My name is Bob" because Bob is assigned to the variable "name" **
 
 Episode 2
+score = 5;
 
-<!-- This function will return 3  -->
+var result = function() {
+  var score = 3;
+  return score;
+};
+
+console.log(result());
+
+** This function will return 3 because it is the number declared as the score within the result **
+
 Episode 3
 var myAnimals = ['Chickens', 'Cats', 'Rabbits'];
 
@@ -24,7 +33,7 @@ var listAnimals = function() {
 
 listAnimals();
 
-<!-- This function will return the index number of each item: Ducks, Dogs and Lions because it is looping through the array within the function and then printing out the nunber assigned to "i" plus a colon plus the animals that are within the function as this overwrites the array outwith the function -->
+** This function will return the index number of each item: Ducks, Dogs and Lions because it is looping through the array within the function and then printing out the nunber assigned to "i" plus a colon plus the animals that are within the function as this overwrites the array outwith the function **
 
 Episode 4
 var suspectOne = 'Ally';
@@ -40,7 +49,7 @@ var allSuspects = function() {
 allSuspects();
 console.log( 'Suspect three is:' + suspectThree );
 
-<!-- Will print "Suspects include: Ally, Alan, Colin and Alistair", then "Suspect three is: Upul" because Colin overwrites Upul within the function, but outwith the function Upul is globally suspectThree -->
+** Will print "Suspects include: Ally, Alan, Colin and Alistair", then "Suspect three is: Upul" because Colin overwrites Upul within the function, but outwith the function Upul is globally suspectThree **
 
 Episode 5
 var detective = {
@@ -59,7 +68,7 @@ var detectiveInfo = function() {
 
 console.log(detectiveInfo());
 
-<!-- Will print out Poirot because Poirot is the name declared in the detectiveInfo function -->
+** Will print out Poirot because Poirot is the name declared in the detectiveInfo function **
 
 Episode 6
 var murderer = 'Rick';
@@ -77,12 +86,12 @@ var outerFunction = function() {
 outerFunction();
 console.log('the murderer is ', murderer
 
-<!-- Will print the murderer is Rick because the console log is using the global variable, not the ones local to the function -->
+** Will print the murderer is Rick because the console log is using the global variable, not the ones local to the function **
 
 Episode 7 - Make up your own episode/s!
 Make up your own episode which can be whatever you wish and the rest of the class will work out together what happened and what the output will be.
 
-const murderer = {
+** const murderer = {
   name: "Murderey Joe",
   age: 30,
   weapons: ["knife", "gun", "sword", "icicle"],
@@ -92,4 +101,4 @@ const murderer = {
 };
 
 murderer.murder();
-console.log(murderer.weapons);
+console.log(murderer.weapons); **
