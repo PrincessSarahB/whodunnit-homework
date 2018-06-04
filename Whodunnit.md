@@ -57,6 +57,9 @@ var detectiveInfo = function() {
 };
 
 console.log(detectiveInfo());
+
+<!-- Will print out Poirot -->
+
 Episode 6
 var murderer = 'Rick';
 
