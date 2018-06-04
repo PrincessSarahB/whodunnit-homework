@@ -10,14 +10,6 @@ printName();
 <!-- This function will print out "My name is Bob" -->
 
 Episode 2
-score = 5;
-
-var result = function() {
-  var score = 3;
-  return score;
-};
-
-console.log(result());
 
 <!-- This function will return 3  -->
 Episode 3
@@ -31,6 +23,8 @@ var listAnimals = function() {
 }
 
 listAnimals();
+
+<!-- This function will return the index number of each item: Ducks, Dogs and Lions -->
 Episode 4
 var suspectOne = 'Ally';
 var suspectTwo = 'Alan';
