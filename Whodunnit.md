@@ -6,6 +6,9 @@ var printName = function() {
 };
 
 printName();
+
+<!-- This function will print out "My name is Bob" -->
+
 Episode 2
 score = 5;
 
@@ -15,6 +18,8 @@ var result = function() {
 };
 
 console.log(result());
+
+<!-- This function will return 3  -->
 Episode 3
 var myAnimals = ['Chickens', 'Cats', 'Rabbits'];
 
