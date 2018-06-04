@@ -81,3 +81,15 @@ console.log('the murderer is ', murderer
 
 Episode 7 - Make up your own episode/s!
 Make up your own episode which can be whatever you wish and the rest of the class will work out together what happened and what the output will be.
+
+const murderer = {
+  name: "Murderey Joe",
+  age: 30,
+  weapons: ["knife", "gun", "sword", "icicle"],
+  murder: function(){
+    this.weapons.pop();
+  }
+};
+
+murderer.murder();
+console.log(murderer.weapons);
