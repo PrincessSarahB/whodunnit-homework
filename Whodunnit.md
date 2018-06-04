@@ -38,6 +38,9 @@ var allSuspects = function() {
 
 allSuspects();
 console.log( 'Suspect three is:' + suspectThree );
+
+<!-- Will print "Suspects include: Ally, Alan, Colin and Alistair", then "Suspect three is: Upul" -->
+
 Episode 5
 var detective = {
   name : 'Ace Ventura',
